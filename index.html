@@ -12,17 +12,22 @@
   <link href="assets/img/logoo.png" rel="icon">
   <link href="assets/img/logoo.png" rel="apple-touch-icon">
 
-  <!-- Fonts -->
+  <!-- Fonts - Preload and Optimize -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" as="style" onload="this.rel='stylesheet'">
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+  </noscript>
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Vendor CSS Files - Asynchronous Loading -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+  <link href="assets/vendor/aos/aos.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+
+  <!-- Alpine.js - Already Deferred -->
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
 
@@ -45,7 +50,7 @@
 
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/logoo.png" alt="subaru">
+        <img src="assets/img/logoo.webp" alt="subaru">
         <h1 class="sitename">Maric Autoparts</h1>
       </a>
 
@@ -142,153 +147,6 @@
 
 </section><!-- /About Section -->
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <span class="description-title">Autoparts</span>
-        <h2>Autoparts</h2>
-        <p>Mini display of soem of the autoparts we offer</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-          </ul><!-- End Portfolio -->
-
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/spark.png" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy"><img src="assets/img/spark.png" class="img-fluid" alt="" loading="lazy"></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">spark Plugs</a></h4>
-                  <p>Quality spark plugs to enhance fuel efficiency</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/oil_filter.jpg" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy"><img src="assets/img/oil_filter.jpg" class="img-fluid" alt="" loading="lazy"></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Oil filter</a></h4>
-                  <p>Subaru Genuine Oil filter<p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/autodoc.jpg" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy"><img src="assets/img/autodoc.jpg" class="img-fluid" alt="" loading="lazy"></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Lights</a></h4>
-                  <p>Subaru genuine Lights</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/motoroil.jpeg" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy"><img src="assets/img/motoroil.jpeg" class="img-fluid" alt="" loading="lazy"></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">CVT Oil</a></h4>
-                  <p>Subaru Genuine CVT Oil</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/timingbely.jpeg" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy"><img src="assets/img/timingbely.jpeg" class="img-fluid" alt="" loading="lazy"></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Timing Belt</a></h4>
-                  <p>Subaru Genuine Timing Belt</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/clutchkit.png" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy"><img src="assets/img/clutch kit.jpg" class="img-fluid" alt="" loading="lazy"></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">clutch kit</a></h4>
-                  <p>Subaru Genuine clutch kit</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/head_gasket.png" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy"><img src="assets/img/head_gasket.png" class="img-fluid" alt="" loading="lazy"></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Head Gasket</a></h4>
-                  <p>Subaru Genuine Head Gasket</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/dust cover.jpg" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy"><img src="assets/img/dust cover.jpg" class="img-fluid" alt="" loading="lazy"></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Dust cover</a></h4>
-                  <p>Subaru Genuine Dust cover</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/waterpump.jpg" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy"><img src="assets/img/waterpump.jpg" class="img-fluid" alt="" loading="lazy"></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Water pump</a></h4>
-                  <p>Subaru Genuine Water pump</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/steering rack.jpg" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy"><img src="assets/img/steering rack.jpg" class="img-fluid" alt="" loading="lazy"></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Steering Rack</a></h4>
-                  <p>Subaru Genuine Steering Rack</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/wheel_hub.jpg" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy"><img src="assets/img/wheel_hub.jpg" class="img-fluid" alt="" loading="lazy"></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Wheel Hub</a></h4>
-                  <p>Genuine subaru Wheel Hub</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/eengineoil.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/eengineoil.png" class="img-fluid" alt="" loading="lazy"></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Engine Oil</a></h4>
-                  <p>Subaru Genuine Engine Oil</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-          </div><!-- End Portfolio Container -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Portfolio Section -->
     
     <!-- Testimonials Section -->
 <section id="testimonials" class="testimonials section dark-background">
@@ -603,7 +461,7 @@
     </section><!-- /Contact Section -->
     <!-- WhatsApp Floating Button -->
 <a href="https://wa.me/+254706251277" class="whatsapp-float" target="_blank">
-  <img src="assets/img/newwhatsapp.png" alt="WhatsApp" />
+  <img src="assets/img/newwhatsapp.webp" alt="WhatsApp" />
 </a>
 
 
