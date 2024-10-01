@@ -8,23 +8,28 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
 
-  <!-- Favicons -->
-  <link href="assets/img/logoo.png" rel="icon">
-  <link href="assets/img/logoo.png" rel="apple-touch-icon">
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-
+    <!-- Favicons -->
+    <link href="assets/img/logoo.webp" rel="icon">
+    <link href="assets/img/logoo.webp" rel="apple-touch-icon">
+  
+    <!-- Fonts - Preload and Optimize -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" as="style" onload="this.rel='stylesheet'">
+    <noscript>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+    </noscript>
+  
+    <!-- Vendor CSS Files - Asynchronous Loading -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+    <link href="assets/vendor/aos/aos.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+  
+    <!-- Alpine.js - Already Deferred -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css?v=1.0.0" rel="stylesheet">
@@ -45,7 +50,7 @@
 
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/logoo.png" alt="subaru">
+        <img src="assets/img/logoo.webp" alt="subaru">
         <h1 class="sitename">Maric Autoparts</h1>
       </a>
 
@@ -84,7 +89,7 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-      <img src="assets/img/home.jpg" alt="" data-aos="fade-in">
+      <img src="assets/img/home.webp" alt="" data-aos="fade-in">
 
       <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
         <div class="row justify-content-center">
