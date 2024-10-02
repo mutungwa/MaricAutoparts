@@ -47,29 +47,30 @@
 
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-
+  
       <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/logoo.webp" alt="subaru">
+        <img src="assets/img/logoo.webp" alt="subaru" loading="lazy"> <!-- Added lazy loading -->
         <h1 class="sitename">Maric Autoparts</h1>
       </a>
-
+  
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#hero" class="active">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#Branches">Branches</a></li>
           <li><a href="#contact">Enquire</a></li>
-          <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown">
+            <a href="#"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">New Parts</a></li>
-              <li class="dropdown"><a href="#"><span>Autoparts</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <li class="dropdown">
+                <a href="#"><span>Autoparts</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                  <li><a href="#">Automatic Transimisson</a></li>
+                  <li><a href="#">Automatic Transmission</a></li>
                   <li><a href="#">Engine and Cooling</a></li>
                   <li><a href="#">Steering</a></li>
                   <li><a href="#">Suspension and Brakes</a></li>
-                  <li><a href="#">Driveline and Diffrential</a></li>
+                  <li><a href="#">Driveline and Differential</a></li>
                 </ul>
               </li>
               <li><a href="#">Ex Japan</a></li>
@@ -80,29 +81,31 @@
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-
+  
     </div>
   </header>
+  
 
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
+<section id="hero" class="hero section dark-background">
 
-      <img src="assets/img/home.webp" alt="" data-aos="fade-in">
+  <img src="assets/img/home.webp" alt="" data-aos="fade-in" loading="lazy"> <!-- Added lazy loading -->
 
-      <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <h2>Your Subaru Parts Destination</h2>
-            <p>At Maric Autoparts, we specialize in providing high-quality, genuine parts for all Subaru models. Whether you’re looking to enhance performance or simply maintain your vehicle, we’ve got you covered.</p>
-            <a href="#about" class="btn-get-started">Explore Now</a>
-          </div>
-        </div>
+  <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <h2>Your Subaru Parts Destination</h2>
+        <p class="small-paragraph">At Maric Autoparts, we specialize in providing high-quality, genuine parts for all Subaru models. Whether you’re looking to enhance performance or simply maintain your vehicle, we’ve got you covered.</p> <!-- Consider reducing font size with CSS for optimization -->
+        <a href="#about" class="btn-get-started">Explore Now</a>
       </div>
+    </div>
+  </div>
 
-    </section><!-- /Hero Section -->
-   <!-- About Section -->
+</section><!-- /Hero Section -->
+
+  <!-- About Section -->
 <section id="about" class="about section">
 
   <!-- Section Title -->
@@ -117,7 +120,8 @@
     <div class="row gy-4">
       <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
         <h3>Your One-Stop Shop for Genuine Subaru Spare Parts</h3>
-        <img src="assets/img/cars.webp" class="img-fluid rounded-4 mb-4" alt="Subaru Spare Parts">
+        <img src="assets/img/cars.webp" class="img-fluid rounded-4 mb-4" alt="Subaru Spare Parts" loading="lazy"> <!-- Added lazy loading -->
+        <p>Your trusted source for genuine Subaru parts in Kenya.</p>
         <p>We specialize in providing authentic Subaru auto parts to keep your vehicle running smoothly and efficiently. Our extensive inventory ensures that you can find exactly what you need, from engine components to body parts.</p>
         <p>With a commitment to quality and customer satisfaction, we work closely with trusted suppliers to offer you the best products at competitive prices. Whether you're a mechanic or a car enthusiast, our shop is equipped to meet all your Subaru parts needs.</p>
       </div>
@@ -136,7 +140,7 @@
           </p>
 
           <div class="position-relative mt-4">
-            <img src="assets/img/subaru_logo.jpg" class="img-fluid rounded-4" alt="Subaru Parts Store" loading="lazy">
+            <img src="assets/img/subaru_logo.jpg" class="img-fluid rounded-4" alt="Subaru Parts Store" loading="lazy"> <!-- Added lazy loading -->
             <a href="https://youtu.be/5O6poftew8E?si=SCVC7esaP6hE0D31" class="glightbox pulsating-play-btn"></a>
           </div>
         </div>
@@ -148,157 +152,180 @@
 </section><!-- /About Section -->
 
     <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
+<section id="portfolio" class="portfolio section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <span class="description-title">Autoparts</span>
-        <h2>Autoparts</h2>
-        <p>Mini display of soem of the autoparts we offer</p>
-      </div><!-- End Section Title -->
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <span class="description-title">Autoparts</span>
+    <h2>Autoparts</h2>
+    <p>Mini display of some of the autoparts we offer</p>
+  </div><!-- End Section Title -->
 
-      <div class="container">
+  <div class="container">
 
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+    <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-          </ul><!-- End Portfolio -->
+      <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+        <li data-filter="*" class="filter-active">All</li>
+      </ul><!-- End Portfolio Filters -->
 
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+      <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/spark.png" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy"><img src="assets/img/spark.png" class="img-fluid" alt="" loading="lazy"></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">spark Plugs</a></h4>
-                  <p>Quality spark plugs to enhance fuel efficiency</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+          <div class="portfolio-content h-100">
+            <a href="assets/img/spark.png" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy">
+              <img src="assets/img/spark.png" class="img-fluid" alt="Spark Plugs" loading="lazy">
+            </a>
+            <div class="portfolio-info">
+              <h4><a href="portfolio-details.html" title="More Details">Spark Plugs</a></h4>
+              <p>Quality spark plugs to enhance fuel efficiency</p>
+            </div>
+          </div>
+        </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/oil_filter.jpg" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy"><img src="assets/img/oil_filter.jpg" class="img-fluid" alt="" loading="lazy"></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Oil filter</a></h4>
-                  <p>Subaru Genuine Oil filter<p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+          <div class="portfolio-content h-100">
+            <a href="assets/img/oil_filter.jpg" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy">
+              <img src="assets/img/oil_filter.jpg" class="img-fluid" alt="Oil Filter" loading="lazy">
+            </a>
+            <div class="portfolio-info">
+              <h4><a href="portfolio-details.html" title="More Details">Oil Filter</a></h4>
+              <p>Subaru Genuine Oil Filter</p>
+            </div>
+          </div>
+        </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/autodoc.jpg" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy"><img src="assets/img/autodoc.jpg" class="img-fluid" alt="" loading="lazy"></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Lights</a></h4>
-                  <p>Subaru genuine Lights</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+          <div class="portfolio-content h-100">
+            <a href="assets/img/autodoc.jpg" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy">
+              <img src="assets/img/autodoc.jpg" class="img-fluid" alt="Lights" loading="lazy">
+            </a>
+            <div class="portfolio-info">
+              <h4><a href="portfolio-details.html" title="More Details">Lights</a></h4>
+              <p>Subaru Genuine Lights</p>
+            </div>
+          </div>
+        </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/motoroil.jpeg" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy"><img src="assets/img/motoroil.jpeg" class="img-fluid" alt="" loading="lazy"></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">CVT Oil</a></h4>
-                  <p>Subaru Genuine CVT Oil</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+          <div class="portfolio-content h-100">
+            <a href="assets/img/motoroil.jpeg" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy">
+              <img src="assets/img/motoroil.jpeg" class="img-fluid" alt="CVT Oil" loading="lazy">
+            </a>
+            <div class="portfolio-info">
+              <h4><a href="portfolio-details.html" title="More Details">CVT Oil</a></h4>
+              <p>Subaru Genuine CVT Oil</p>
+            </div>
+          </div>
+        </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/timingbely.jpeg" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy"><img src="assets/img/timingbely.jpeg" class="img-fluid" alt="" loading="lazy"></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Timing Belt</a></h4>
-                  <p>Subaru Genuine Timing Belt</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+          <div class="portfolio-content h-100">
+            <a href="assets/img/timingbely.jpeg" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy">
+              <img src="assets/img/timingbely.jpeg" class="img-fluid" alt="Timing Belt" loading="lazy">
+            </a>
+            <div class="portfolio-info">
+              <h4><a href="portfolio-details.html" title="More Details">Timing Belt</a></h4>
+              <p>Subaru Genuine Timing Belt</p>
+            </div>
+          </div>
+        </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/clutchkit.png" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy"><img src="assets/img/clutch kit.jpg" class="img-fluid" alt="" loading="lazy"></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">clutch kit</a></h4>
-                  <p>Subaru Genuine clutch kit</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+          <div class="portfolio-content h-100">
+            <a href="assets/img/clutchkit.png" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy">
+              <img src="assets/img/clutch kit.jpg" class="img-fluid" alt="Clutch Kit" loading="lazy">
+            </a>
+            <div class="portfolio-info">
+              <h4><a href="portfolio-details.html" title="More Details">Clutch Kit</a></h4>
+              <p>Subaru Genuine Clutch Kit</p>
+            </div>
+          </div>
+        </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/head_gasket.png" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy"><img src="assets/img/head_gasket.png" class="img-fluid" alt="" loading="lazy"></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Head Gasket</a></h4>
-                  <p>Subaru Genuine Head Gasket</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+          <div class="portfolio-content h-100">
+            <a href="assets/img/head_gasket.png" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy">
+              <img src="assets/img/head_gasket.png" class="img-fluid" alt="Head Gasket" loading="lazy">
+            </a>
+            <div class="portfolio-info">
+              <h4><a href="portfolio-details.html" title="More Details">Head Gasket</a></h4>
+              <p>Subaru Genuine Head Gasket</p>
+            </div>
+          </div>
+        </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/dust cover.jpg" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy"><img src="assets/img/dust cover.jpg" class="img-fluid" alt="" loading="lazy"></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Dust cover</a></h4>
-                  <p>Subaru Genuine Dust cover</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+          <div class="portfolio-content h-100">
+            <a href="assets/img/dust cover.jpg" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy">
+              <img src="assets/img/dust cover.jpg" class="img-fluid" alt="Dust Cover" loading="lazy">
+            </a>
+            <div class="portfolio-info">
+              <h4><a href="portfolio-details.html" title="More Details">Dust Cover</a></h4>
+              <p>Subaru Genuine Dust Cover</p>
+            </div>
+          </div>
+        </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/waterpump.jpg" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy"><img src="assets/img/waterpump.jpg" class="img-fluid" alt="" loading="lazy"></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Water pump</a></h4>
-                  <p>Subaru Genuine Water pump</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+          <div class="portfolio-content h-100">
+            <a href="assets/img/waterpump.jpg" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy">
+              <img src="assets/img/waterpump.jpg" class="img-fluid" alt="Water Pump" loading="lazy">
+            </a>
+            <div class="portfolio-info">
+              <h4><a href="portfolio-details.html" title="More Details">Water Pump</a></h4>
+              <p>Subaru Genuine Water Pump</p>
+            </div>
+          </div>
+        </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/steering rack.jpg" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy"><img src="assets/img/steering rack.jpg" class="img-fluid" alt="" loading="lazy"></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Steering Rack</a></h4>
-                  <p>Subaru Genuine Steering Rack</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+          <div class="portfolio-content h-100">
+            <a href="assets/img/steering rack.jpg" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy">
+              <img src="assets/img/steering rack.jpg" class="img-fluid" alt="Steering Rack" loading="lazy">
+            </a>
+            <div class="portfolio-info">
+              <h4><a href="portfolio-details.html" title="More Details">Steering Rack</a></h4>
+              <p>Subaru Genuine Steering Rack</p>
+            </div>
+          </div>
+        </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/wheel_hub.jpg" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy"><img src="assets/img/wheel_hub.jpg" class="img-fluid" alt="" loading="lazy"></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Wheel Hub</a></h4>
-                  <p>Genuine subaru Wheel Hub</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+          <div class="portfolio-content h-100">
+            <a href="assets/img/wheel_hub.jpg" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy">
+              <img src="assets/img/wheel_hub.jpg" class="img-fluid" alt="Wheel Hub" loading="lazy">
+            </a>
+            <div class="portfolio-info">
+              <h4><a href="portfolio-details.html" title="More Details">Wheel Hub</a></h4>
+              <p>Genuine Subaru Wheel Hub</p>
+            </div>
+          </div>
+        </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/eengineoil.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/eengineoil.png" class="img-fluid" alt="" loading="lazy"></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Engine Oil</a></h4>
-                  <p>Subaru Genuine Engine Oil</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+          <div class="portfolio-content h-100">
+            <a href="assets/img/eengineoil.png" data-gallery="portfolio-gallery-app" class="glightbox" loading="lazy">
+              <img src="assets/img/eengineoil.png" class="img-fluid" alt="Engine Oil" loading="lazy">
+            </a>
+            <div class="portfolio-info">
+              <h4><a href="portfolio-details.html" title="More Details">Engine Oil</a></h4>
+              <p>Subaru Genuine Engine Oil</p>
+            </div>
+          </div>
+        </div><!-- End Portfolio Item -->
 
-          </div><!-- End Portfolio Container -->
+      </div><!-- End Portfolio Items -->
 
-        </div>
+    </div><!-- End Isotope Layout -->
 
-      </div>
+  </div><!-- End Container -->
+</section><!-- End Portfolio Section -->
 
-    </section><!-- /Portfolio Section -->
-    
     <!-- Testimonials Section -->
 <section id="testimonials" class="testimonials section dark-background">
 
-  <img src="assets/img/pc.jpg" class="testimonials-bg" alt="">
+  <img src="assets/img/pc.jpg" class="testimonials-bg" alt="Background Image" loading="lazy">
 
   <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -322,7 +349,7 @@
 
         <div class="swiper-slide">
           <div class="testimonial-item">
-            <img src="assets/img/pfp.jpg" class="testimonial-img" alt="">
+            <img src="assets/img/pfp.jpg" class="testimonial-img" alt="James Muriithi" loading="lazy">
             <h3>James Muriithi</h3>
             <h4>Subaru Forester Owner</h4>
             <div class="stars">
@@ -338,7 +365,7 @@
 
         <div class="swiper-slide">
           <div class="testimonial-item">
-            <img src="assets/img/pfp.jpg" class="testimonial-img" alt="">
+            <img src="assets/img/pfp.jpg" class="testimonial-img" alt="Grace Wanjiku" loading="lazy">
             <h3>Grace Wanjiku</h3>
             <h4>Subaru Impreza Owner</h4>
             <div class="stars">
@@ -354,7 +381,7 @@
 
         <div class="swiper-slide">
           <div class="testimonial-item">
-            <img src="assets/img/pfp.jpg" class="testimonial-img" alt="">
+            <img src="assets/img/pfp.jpg" class="testimonial-img" alt="Peter Njoroge" loading="lazy">
             <h3>Peter Njoroge</h3>
             <h4>Subaru Outback Owner</h4>
             <div class="stars">
@@ -370,7 +397,7 @@
 
         <div class="swiper-slide">
           <div class="testimonial-item">
-            <img src="assets/img/pfp.jpg" class="testimonial-img" alt="">
+            <img src="assets/img/pfp.jpg" class="testimonial-img" alt="Lucy Karanja" loading="lazy">
             <h3>Lucy Karanja</h3>
             <h4>Subaru Legacy Owner</h4>
             <div class="stars">
@@ -386,7 +413,7 @@
 
         <div class="swiper-slide">
           <div class="testimonial-item">
-            <img src="assets/img/pfp.jpg" class="testimonial-img" alt="">
+            <img src="assets/img/pfp.jpg" class="testimonial-img" alt="David Mwangi" loading="lazy">
             <h3>David Mwangi</h3>
             <h4>Subaru WRX Owner</h4>
             <div class="stars">
@@ -410,13 +437,6 @@
 
 </section><!-- /Testimonials Section -->
 
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-
-    </section><!-- /Testimonials Section -->
 <!-- Faq Section -->
 <section id="faq" class="faq section">
 
@@ -506,7 +526,16 @@
       <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
         <h3>Branch 1 - Industrial Area, Nairobi</h3>
         <div class="position-relative">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994.3911355562361!2d36.83055043248973!3d-1.3057518949593998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f11c787a546c1%3A0xa2b7ef5dc1c3c4b0!2sMARIC%20AUTOPARTS%20(K)%20ltd!5e0!3m2!1sen!2ske!4v1726747140510!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994.3911355562361!2d36.83055043248973!3d-1.3057518949593998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f11c787a546c1%3A0xa2b7ef5dc1c3c4b0!2sMARIC%20AUTOPARTS%20(K)%20ltd!5e0!3m2!1sen!2ske!4v1726747140510!5m2!1sen!2ske" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade" 
+            title="Map of Branch 1 - Industrial Area, Nairobi">
+          </iframe>
         </div>
         <p>Located in the Industrial Area, our Nairobi branch offers a wide range of Subaru auto parts.</p>
       </div>
@@ -515,7 +544,16 @@
       <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
         <h3>Branch 2 - Utawala, Nairobi</h3>
         <div class="position-relative">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d352.5650152391699!2d36.958725481931545!3d-1.283160780936894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ske!4v1725902210913!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d352.5650152391699!2d36.958725481931545!3d-1.283160780936894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ske!4v1725902210913!5m2!1sen!2ske" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade" 
+            title="Map of Branch 2 - Utawala, Nairobi">
+          </iframe>
         </div>
         <p>Our Utawala branch is conveniently located for easy access to quality Subaru parts.</p>
       </div>
@@ -526,90 +564,93 @@
 </section><!-- /Branch Locations Section -->
 
 
+
     <!-- Contact Section -->
-    <section id="contact" class="contact section">
+<section id="contact" class="contact section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <span class="description-title">Contact</span>
-        <h2>Contact</h2>
-      </div><!-- End Section Title -->
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <span class="description-title">Contact</span>
+    <h2>Contact</h2>
+  </div><!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
-          <div class="row gy-5">
+    <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
+      <div class="row gy-5">
 
-            <div class="col-lg-4">
-              <div class="info-item d-flex align-items-center">
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
-                <div>
-                  <h3>Address</h3>
-                  <p>Nairobi Industrial Area</p>
-                </div>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="col-lg-4">
-              <div class="info-item d-flex align-items-center">
-                <i class="bi bi-telephone flex-shrink-0"></i>
-                <div>
-                  <h3>Call Us</h3>
-                  <p>+254 706 251 277 </p>
-                </div>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="col-lg-4">
-              <div class="info-item d-flex align-items-center">
-                <i class="bi bi-envelope flex-shrink-0"></i>
-                <div>
-                  <h3>Email Us</h3>
-                  <p>marynzioki1991@gmail.com</p>
-                </div>
-              </div>
-            </div><!-- End Info Item -->
-
+        <div class="col-lg-4">
+          <div class="info-item d-flex align-items-center">
+            <i class="bi bi-geo-alt flex-shrink-0"></i>
+            <div>
+              <h3>Address</h3>
+              <p>Nairobi Industrial Area</p>
+            </div>
           </div>
-        </div>
+        </div><!-- End Info Item -->
 
-        <form action="forms/contactt.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="300">
-          <div class="row gy-4">
-
-            <div class="col-md-6">
-              <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+        <div class="col-lg-4">
+          <div class="info-item d-flex align-items-center">
+            <i class="bi bi-telephone flex-shrink-0"></i>
+            <div>
+              <h3>Call Us</h3>
+              <p>+254 706 251 277</p>
             </div>
-
-            <div class="col-md-6 ">
-              <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-            </div>
-
-            <div class="col-md-12">
-              <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-            </div>
-
-            <div class="col-md-12">
-              <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-            </div>
-
-            <div class="col-md-12 text-center">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
-
-              <button href="contact" type="submit">Send Message</button>
-            </div>
-
           </div>
-        </form><!-- End Contact Form -->
+        </div><!-- End Info Item -->
+
+        <div class="col-lg-4">
+          <div class="info-item d-flex align-items-center">
+            <i class="bi bi-envelope flex-shrink-0"></i>
+            <div>
+              <h3>Email Us</h3>
+              <p><a href="mailto:marynzioki1991@gmail.com">marynzioki1991@gmail.com</a></p>
+            </div>
+          </div>
+        </div><!-- End Info Item -->
 
       </div>
+    </div>
 
-    </section><!-- /Contact Section -->
-    <!-- WhatsApp Floating Button -->
-<a href="https://wa.me/+254706251277" class="whatsapp-float" target="_blank">
-  <img src="assets/img/newwhatsapp.png" alt="WhatsApp" />
+    <form action="forms/contactt.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="300">
+      <div class="row gy-4">
+
+        <div class="col-md-6">
+          <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+        </div>
+
+        <div class="col-md-6">
+          <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+        </div>
+
+        <div class="col-md-12">
+          <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+        </div>
+
+        <div class="col-md-12">
+          <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+        </div>
+
+        <div class="col-md-12 text-center">
+          <div class="loading">Loading</div>
+          <div class="error-message"></div>
+          <div class="sent-message">Your message has been sent. Thank you!</div>
+
+          <button type="submit">Send Message</button>
+        </div>
+
+      </div>
+    </form><!-- End Contact Form -->
+
+  </div>
+
+</section><!-- /Contact Section -->
+
+   <!-- WhatsApp Floating Button -->
+<a href="https://wa.me/+254706251277" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+  <img src="assets/img/newwhatsapp.png" alt="Chat with us on WhatsApp" loading="lazy" />
 </a>
+
 
 
   </main>
@@ -623,16 +664,16 @@
             <span class="sitename">Plato</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>Industrial Area daaresalam road</p>
+            <p>Industrial Area, Daresalam Road</p>
             <p>Nairobi, Kenya</p>
             <p class="mt-3"><strong>Phone:</strong> <span>+254706251277</span></p>
-            <p><strong>Email:</strong> <span>marynzioki1991@gmail.com</span></p>
+            <p><strong>Email:</strong> <span><a href="mailto:marynzioki1991@gmail.com">marynzioki1991@gmail.com</a></span></p>
           </div>
           <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href="https://www.facebook.com/RichtechAuto?mibextid=ZbWKwL"><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.facebook.com/RichtechAuto?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
@@ -640,7 +681,7 @@
           <h4>Useful Links</h4>
           <ul>
             <li><a href="#Home">Home</a></li>
-            <li><a href="#">About us</a></li>
+            <li><a href="#">About Us</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#About">Enquire</a></li>
             <li><a href="#Branches">Branches</a></li>
@@ -651,8 +692,8 @@
           <h4>Our Services</h4>
           <ul>
             <li><a href="#contact">New Parts</a></li>
-            <li><a href="#contact">Ex Japan</a></li>
-            <li><a href="#contact">Repair and Mantainance</a></li>
+            <li><a href="#contact">Ex-Japan</a></li>
+            <li><a href="#contact">Repair and Maintenance</a></li>
           </ul>
         </div>
       </div>
@@ -661,31 +702,30 @@
     <div class="container copyright text-center mt-4">
       <p>© <span>Copyright</span> <strong class="px-1 sitename">Maric Autoparts</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
-        Designed by <a href="">Kelvin Mutungwa</a>
+        Designed by <a href="#">Kelvin Mutungwa</a>
       </div>
     </div>
 
-  </footer>
+</footer>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+<!-- Scroll Top -->
+<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+<!-- Preloader -->
+<div id="preloader"></div>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<!-- Vendor JS Files -->
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
-  <!-- Main JS File -->
-  <script src="assets/js/main.js?v=1.0.0" defer></script>
-  <script src="https://instant.page/5.1.0" type="module" integrity="sha384-MeD+4m5g9qYObJlZJqfcb67a8P+EMTk42pxDRXnc7x9IBbHZP3KNBU1NlgHz59z+" defer></script>
-
+<!-- Main JS File -->
+<script src="assets/js/main.js?v=1.0.0" defer></script>
+<script src="https://instant.page/5.1.0" type="module" integrity="sha384-MeD+4m5g9qYObJlZJqfcb67a8P+EMTk42pxDRXnc7x9IBbHZP3KNBU1NlgHz59z+" defer></script>
 
 </body>
 
